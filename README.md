@@ -1,2 +1,2 @@
 # HelloWorldJava
-This code includes a simple "Hello World"Java program
+This code includes a simple "Hello World" Java program
