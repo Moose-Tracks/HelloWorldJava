@@ -45,6 +45,5 @@ public class Main {
         long ownLongVariable = 50000L + 10L * (ownByteVariable + ownShortVariable + ownIntVariable);
 
         System.out.println("My Variable: " + ownLongVariable);
-        System.out.println();
     }
 }
