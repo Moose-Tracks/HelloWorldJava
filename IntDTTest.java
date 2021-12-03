@@ -1,5 +1,3 @@
-package academy.learnprogramming;
-
 import java.sql.SQLOutput;
 
 public class Main {
