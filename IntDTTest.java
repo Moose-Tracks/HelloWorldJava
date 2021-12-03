@@ -32,9 +32,7 @@ public class Main {
         short bigShortLiteralValue = 32767;
 
         int myTotal = (myMinIntValue / 2);
-
         byte myNewByteValue = (byte) (myMinByteValue / 2);
-
         short myNewShortValue = (short) (myMinShortValue / 2);
 
         //Here is my homework portion
@@ -45,5 +43,11 @@ public class Main {
         long ownLongVariable = 50000L + 10L * (ownByteVariable + ownShortVariable + ownIntVariable);
 
         System.out.println("My Variable: " + ownLongVariable);
+
+
+        short ownNewTotal = (short) (1000 + 10 *
+                (ownByteVariable + ownShortVariable + ownIntVariable));
+
+        System.out.println("Casting Short here: " + ownNewTotal);
     }
 }
