@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -39,8 +37,14 @@ public class Main {
 
         short myNewShortValue = (short) (myMinShortValue / 2);
 
-        System.out.println();
-        System.out.println();
+        //Here is my homework portion
 
+        byte ownByteVariable = 35;
+        short ownShortVariable = 3325;
+        int ownIntVariable = 30025;
+        long ownLongVariable = 50000L + 10L * (ownByteVariable + ownShortVariable + ownIntVariable);
+
+        System.out.println("My Variable: " + ownLongVariable);
+        System.out.println();
     }
 }
