@@ -11,8 +11,27 @@ public class Main {
         System.out.println("Double Minimum Value = " + myMinDoubleValue);
         System.out.println("Double Maximum Value = " + myMaxDoubleValue);
 
-        int myIntValue = 5;
-        float myFloatValue = 5.25F;
-        double myDoubleValue = 5D;
+        int myIntValue = 5/3;
+        float myFloatValue = 5F / 3F;
+        double myDoubleValue = 5.00 / 3.00;
+        System.out.println("myIntValue= " + myIntValue);
+        System.out.println("myFloatValue= " + myFloatValue);
+        System.out.println("myDoubleValue= " + myDoubleValue);
+
+
+        //LBS to KG conversion Application (Challenge)
+
+        double lbsValue = 6D;
+        double kgConverted = lbsValue * 0.45359237D;
+        System.out.println("Converted Kilograms = " + kgConverted);
+
+
+        //Resume Practice
+
+        double pi = 3.1415927D;
+        double anotherNumber = 3_000_000.4_567_890D;
+        System.out.println("Pi = " + pi);
+        System.out.println("Another Number = " + anotherNumber);
+
     }
 }
