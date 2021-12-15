@@ -17,8 +17,6 @@ public class Main {
         } else {
             System.out.println("broken");
         }
-        //Best practice is to close the scanner once input is provided, so that memory can save the imput and allocate
-        //properly
         scanner.close();
     }
 }
